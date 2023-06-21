@@ -1,12 +1,27 @@
 .Answers
 {
-  // insert Answers scss here e.g.
-  //&-nav {
-  //  padding-top: 32px;
-  //}
+  .HitchhikerProductProminentImageClickable {
+    box-shadow: 2px 2px 3px #d9d9d9;
+
+    :hover {
+      box-shadow: none;
+    }
+  }
+  .HitchhikerProductProminentImageClickable-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .HitchhikerProductProminentImageClickable-img {
+    object-fit: contain;
+  }
 }
 
-.Overlay
-{
-  // Insert Overlay styling here
+.yxt-Nav-container, .yxt-Nav-expanded {
+  display: none;
+}
+
+//filter box styling
+.yxt-FilterBox-apply {
+  background-color: --yxt-color-brand-primary;
+  border-radius: 30px;
 }

@@ -18,15 +18,20 @@
     },
     **/
     "Facets": {
-      "expand": false, // Allow the user to expand and collapse the facets
+      "expand": true, // Allow the user to expand and collapse the facets
       "showMore": false, // Display a link to see more facet options within a facet
-      "searchOnChange": true // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
+      "searchOnChange": false, // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
+      "fields": {
+        "commerce_linkedProductCategories.name": {
+          "label": "Category"
+        }
+      }
       // Additional options are available in the documentation
     },
     "FilterLink": {
-      "changeFiltersText": "filters", // Text that displays by default
-      "resetFiltersText": "reset", // Text when filters are applied
-      "clearSearchText": "clear search" // Text when there are no results, conducts an empty search
+      "changeFiltersText": "Filters", // Text that displays by default
+      "resetFiltersText": "Reset", // Text when filters are applied
+      "clearSearchText": "Clear search" // Text when there are no results, conducts an empty search
     },
     "AppliedFilters": {
       "removable": true
