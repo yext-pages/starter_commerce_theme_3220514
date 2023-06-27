@@ -25,8 +25,20 @@
         "commerce_linkedProductCategories.name": {
           "label": "Category"
         }
-      }
+      },
       // Additional options are available in the documentation
+    },
+     "SortOptions" : {
+      "options": [
+        {
+          "type": "FIELD",
+          "field": "price.value",
+          "direction": "ASC",
+          "label": "Price"
+        }
+      ],
+      "searchOnChange": true,
+      "label": "Sort"
     },
     "FilterLink": {
       "changeFiltersText": "Filters", // Text that displays by default
