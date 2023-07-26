@@ -22,7 +22,7 @@
       "showMore": false, // Display a link to see more facet options within a facet
       "searchOnChange": false, // Will automatically run a search as facets are selected or unselected. Set to false to only trigger updates with an Apply button. 
       "fields": {
-        "commerce_linkedProductCategories.name": {
+        "commerce_linkedProductCategory.name": {
           "label": "Category"
         }
       },
